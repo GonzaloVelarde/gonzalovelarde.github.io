@@ -9,7 +9,7 @@ relative_permalinks: False
 # Setup
 title:            "Gonzalo Velarde"
 tagline:          'Just for fun'
-description:      'A Website'
+description:      '***'
 url:              https://gonzalovelarde.github.io
 baseurl:          /
 
