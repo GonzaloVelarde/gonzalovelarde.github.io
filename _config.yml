@@ -1,10 +1,10 @@
 # # Dependencies
-# markdown:         redcarpet
-# highlighter:      pygments
-
-# Dependencies
-markdown:         kramdown
+markdown:         redcarpet
 highlighter:      pygments
+
+# # Dependencies
+# markdown:         kramdown
+# highlighter:      pygments
 
 
 # Permalinks
