@@ -19,9 +19,10 @@ author:
 
 # List of links in the navigation bar
 navbar-links:
-  Research: "research"
-  Software: "software"
-  Teaching: "teaching"
+  World: "world"
+  Maths: "maths"
+  Cataract surgery: "cataract surgery"
+  Publications: "publications"
   CV: "cv"
 
 paginate:         5
