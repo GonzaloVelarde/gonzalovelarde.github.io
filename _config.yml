@@ -1,6 +1,11 @@
+# # Dependencies
+# markdown:         redcarpet
+# highlighter:      pygments
+
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
+
 
 # Permalinks
 # permalink:        pretty
@@ -24,6 +29,10 @@ navbar-links:
   Cataract surgery: "cataract surgery"
   Publications: "publications"
   CV: "cv"
+
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
 
 paginate:         5
 
