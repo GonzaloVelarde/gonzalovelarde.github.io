@@ -1,15 +1,31 @@
-# # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# --- Don't need to touch anything below here (but you can if you want) --- #
 
-# # Dependencies
-# markdown:         kramdown
-# highlighter:      pygments
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
 
+kramdown:
+  input: GFM
 
-# Permalinks
-# permalink:        pretty
-relative_permalinks: False
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
 
 # Setup
 title:            "Gonzalo Velarde"
