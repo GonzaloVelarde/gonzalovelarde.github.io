@@ -17,6 +17,13 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
+# List of links in the navigation bar
+navbar-links:
+  Research: "research"
+  Software: "software"
+  Teaching: "teaching"
+  CV: "cv"
+
 paginate:         5
 
 # Custom vars
