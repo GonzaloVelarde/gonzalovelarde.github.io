@@ -40,9 +40,10 @@ author:
 
 # List of links in the navigation bar
 navbar-links:
-  World: "world"
-  Maths: "maths"
-  Cataract surgery: "cataract surgery"
+  Optics: "optics"
+  Publications: "publications"
+  Math: "math"
+  Travel Blog: "travel-blog"
   Publications: "publications"
   CV: "cv"
 
