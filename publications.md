@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "Publicaciones"
-category: publications
+layout: category
+title: "Publications"
+category: Publications
 permalink: /publications/
 ---
