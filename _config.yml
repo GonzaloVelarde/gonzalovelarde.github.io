@@ -40,11 +40,11 @@ author:
 
 # List of links in the navigation bar
 navbar-links:
-  Optics: "/optics/"
-  Publications: "/publications/"
-  Math: "/math/"
-  Travel Blog: "/travel-blog/"
-  CV: "/cv/"
+  optics: "/optics/"
+  publications: "/publications/"
+  math: "/math/"
+  mravel Blog: "/travel-blog/"
+  cv: "/cv/"
 
 plugins:
 - jekyll-paginate
