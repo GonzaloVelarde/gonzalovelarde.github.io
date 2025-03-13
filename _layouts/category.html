@@ -2,20 +2,15 @@
 layout: default
 ---
 
-<div class="content container">
-  <h1>{{ page.title }}</h1>
+<h1>Categoría: {{ page.title }}</h1>
 
-  {% if site.categories[page.category] %}
-    <ul>
-      {% for post in site.categories[page.category] %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <small>({{ post.date | date: "%Y-%m-%d" }})</small>
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p>No hay posts en esta categoría aún.</p>
-  {% endif %}
-</div>
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains page.category %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
