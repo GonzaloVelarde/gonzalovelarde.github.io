@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: title
 title: "Optics"
 category: optics
 permalink: /optics/
