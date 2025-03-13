@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/style.css">
-</head>
-<body>
+<html lang="en-us">
 
-  <div class="container">
-    <div class="row">
-      <!-- Barra lateral -->
-      <div class="sidebar">
-        {% include sidebar.html %}
-      </div>
+  {% include head.html %}
 
-      <!-- Contenido principal -->
-      <div class="content">
-        {{ content }}
-      </div>
+  <body>
+
+    {% include sidebar.html %}
+
+    <div class="content container">
+      {{ content }}
     </div>
-  </div>
 
-</body>
+  </body>
 </html>
