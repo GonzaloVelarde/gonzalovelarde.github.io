@@ -39,12 +39,13 @@ author:
   url:            https://twitter.com/mdo
 
 # List of links in the navigation bar
-navbar-links:  
-  optics: "/optics/"
-  publications: "/publications/"
-  math: "/math/"
-  travel Blog: "/travel-blog/"
-  cv: "/cv/"
+navbar-links:
+  Home: "index.html"
+  Optics: "/optics/"
+  Publications: "/publications/"
+  Math: "/math/"
+  Travel Blog: "/travel-blog/"
+  Cv: "/cv/"
 
 plugins:
 - jekyll-paginate
