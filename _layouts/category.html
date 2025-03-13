@@ -14,3 +14,25 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      {% include sidebar.html %}
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+
+</body>
+</html>
