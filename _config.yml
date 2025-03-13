@@ -44,7 +44,7 @@ navbar-links:
   Publications: "/publications/"
   Math: "/math/"
   Travel Blog: "/travel-blog/"
-  CV: "cv"
+  CV: "/cv/"
 
 plugins:
 - jekyll-paginate
