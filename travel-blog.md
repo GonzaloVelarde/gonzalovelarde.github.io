@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: category
 title: "Travel Blog"
-category: travel-blog
+category: Travel
 permalink: /travel-blog/
 ---
