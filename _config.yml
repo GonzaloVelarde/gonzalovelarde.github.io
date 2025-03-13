@@ -39,11 +39,11 @@ author:
   url:            https://twitter.com/mdo
 
 # List of links in the navigation bar
-navbar-links:
+navbar-links:  
   optics: "/optics/"
   publications: "/publications/"
   math: "/math/"
-  mravel Blog: "/travel-blog/"
+  travel Blog: "/travel-blog/"
   cv: "/cv/"
 
 plugins:
