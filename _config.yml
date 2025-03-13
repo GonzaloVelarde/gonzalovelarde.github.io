@@ -39,7 +39,7 @@ author:
   url:            https://twitter.com/mdo
 
 # List of links in the navigation bar
-sidebar-links:
+navbar-links:
   Optics: "/optics/"
   Publications: "/publications/"
   Math: "/math/"
