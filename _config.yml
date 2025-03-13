@@ -53,6 +53,11 @@ plugins:
 
 paginate:         5
 
+collections:
+  categories:
+    output: true
+    permalink: /categories/:name/
+
 # Custom vars
 version:          2.1.0
 
