@@ -40,11 +40,10 @@ author:
 
 # List of links in the navigation bar
 navbar-links:
-  Optics: "optics"
-  Publications: "publications"
-  Math: "math"
-  Travel Blog: "travel-blog"
-  Publications: "publications"
+  Optics: "/optics/"
+  Publications: "/publications/"
+  Math: "/math/"
+  Travel Blog: "/travel-blog/"
   CV: "cv"
 
 plugins:

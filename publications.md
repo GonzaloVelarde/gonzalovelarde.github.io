@@ -1,7 +1,6 @@
 ---
-layout: default
-title: Publications
+layout: category
+title: "Publicaciones"
+category: publications
+permalink: /publications/
 ---
-### Publications
-### Research meetings
-### Skills
